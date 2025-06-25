@@ -39,6 +39,7 @@ def average_words(words: list[str]) -> list[str]:
 
 # Intersection
 def intersect(foo: list[str], bar: list[str]) -> bool:
+  # Two statements for null test, since there are two inputs being evaluated
   if not foo:
     return None
   if not bar:
